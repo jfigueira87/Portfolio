@@ -162,13 +162,19 @@ nav{
 }
 
 .logoProyect img{
-    width: 350px;
+    width: 450px;
+}
+
+.logoProyect img:hover{
+    width: 500px;
+    transition: 0.5s ease-out;
 }
 
 .descriptionProyect{
     display: flex;
     width: 60%;
     margin-right: 40px;
+    
 }
 
 /* SECCION ABOUT ME */
@@ -280,7 +286,7 @@ footer{
     border-radius: 15px;
     flex-direction: row;
     justify-content: space-between;
-    width: 300px;
+    width: 80%;
 }
 
 .logosFooter{
@@ -325,6 +331,10 @@ footer{
     .logoProyect{
         margin:0;
         justify-content: center;
+    }
+
+    .logoProyect img{
+        width: 300fggpx;
     }
 
     .descriptionProyect{
