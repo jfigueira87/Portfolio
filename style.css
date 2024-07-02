@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Galdeano&display=swap');
+
+/* ESTILOS GENERALES */
+p{
+    color: white;
+    font-size: 1.3em;
+}
+
+body{
+    display: flex;
+    background-color: #464B63 ;
+    justify-content: center;
+    font-family: Galdeano, sans-serif;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+     width:100% ;
+     align-items: center;
+}
+
+main{
+    width: 80%;
+}
+
+/* NAV BAR */
+
+.logoMenu img{
+    width: 150px;
+    margin-left: 2rem;
+}
+
+.logoMenu{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 80%;
+    height: 70px;
+    border-radius: 10px;    
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;   
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%; 
+}
+
+.menu ul li{
+    width: 100%;
+    height: 100%;
+}
+
+.menu ul li a{
+    display: flex;
+    color:white;
+    margin-left: 40px;
+    margin-right: 35px;
+    align-items: center;
+    font-size: 1.4em;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.menu ul li a:hover{
+    color: #464B63;
+    transform: scale(1.1);
+    
+}
+
+#sidebar-active{
+    display: none;
+}
+
+.btn-open, .btn-close{
+    display: none;
+}
+
+/* SECCION HOME, FOTO + DESCRIPCIÓN */
+
+.home .descriptionHeader{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home .descriptionHeader h1{
+    text-align: center;
+    padding: 2rem 3rem;
+    font-size: 5em;
+    color: white;
+}
+
+.home .descriptionHeader p{
+    font-size: 1.5em;
+}
+
+.home .photo{
+    display: flex;
+    align-content: center;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.photo img{
+    width: 200px;
+    margin: 0;
+}
+
+/* SECCION DE PROYECTOS */
+
+.proyects .title{
+    color: white;
+    background-color: #2A3456 ;
+    border-radius: 15px;
+}
+
+.proyects .title h2{
+    text-align: center;
+    font-size: 3em;
+    margin:0;
+    padding: 1rem;
+}
+
+.proyects{
+    display: flex;
+    flex-direction: column;
+}
+
+.containerProyect{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    align-items: center;
+    width: 100%;
+}
+
+.logoProyect{
+    display: flex;
+    justify-content: left;
+    width: 40%;
+    margin: 5%;
+}
+
+.logoProyect img{
+    width: 350px;
+}
+
+.descriptionProyect{
+    display: flex;
+    width: 60%;
+    margin-right: 40px;
+}
+
+/* SECCION ABOUT ME */
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+   
+}
+
+.aboutMe .title h2{
+    text-align: center;
+    font-size: 3em;
+    margin:0;
+    padding: 1rem;
+}
+
+.aboutMe .title{
+    color: white;
+    background-color: #2A3456 ;
+    border-radius: 15px;
+}
+
+.descriptionAboutMe{
+    margin: 4rem auto;
+    width: 95%;
+ 
+}
+
+/* SECCION DE CONTACTO */
+
+.contact .title{
+    color: white;
+    background-color: #2A3456 ;
+    border-radius: 15px;
+}
+
+.contact .title h2{
+    text-align: center;
+    font-size: 3em;
+    margin:0;
+    padding: 1rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+}
+
+.formContact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+#name, #phone, textarea {
+    display: flex;
+    width: 100%;
+    height: 2.7rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: Galdeano, sans-serif;
+    font-size: 1.3em;
+}
+
+textarea{
+    height: 8rem;
+}
+
+.formName{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+#botton{
+    display: flex;
+    justify-content: center;
+    background-color: #2A3456;
+    color: white;
+    font-size: 1.5em;
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+}
+
+#botton:hover{
+    transform: scale(1.1);
+    background-color:#1C243C ;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    background-color: #2A3456;
+    border-radius: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.logosFooter{
+    display: flex;
+    margin-right: 2rem;
+    align-items: center;
+}
+
+.logosFooter img{
+    margin-left: 2rem;
+}
+
+.logosFooter img:hover{
+    transform: scale(1.2);
+}
+    
+.copyR{
+    margin-left: 2rem;
+}
+
+.copyR p::before{
+    content: "Jonnatha Figueira © 2024 | All Rights Reserved";
+}
+
+/* MEDIA QUERYS, DISEÑO RESPONSIVE */
+
+@media (max-width: 1080px){
+    nav{
+        width: 100%;
+        border-radius: 0;
+        align-items: center;
+    }
+    
+    .containerProyect{
+        flex-direction: column;
+    }
+
+    .logoMenu{
+        width: 100%;
+    }
+
+    .logoProyect{
+        margin:0;
+        justify-content: center;
+    }
+
+    .descriptionProyect{
+        margin:0;
+        width: 100%;
+    }
+
+    .copyR p::before{
+        content: "Jonnatha F © 2024";
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 300px;
+        height: 100%;
+        background-color: black;
+        z-index: 999;
+        transition: 1s ease-out;
+    }
+
+
+    .menu ul{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+        width: 100%;
+    }
+
+    .menu ul li{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .menu ul li:hover{
+        background-color: #464B63;
+    }
+
+    .menu ul li a:hover{
+        color: white;
+    }
+
+    .btn-open, .btn-close{
+        display: block;
+    }
+
+    #sidebar-active:checked ~ .menu{
+        right: 0;
+        transition: 1s ease-in;
+    }
+
+   .photo .descriptionHeader{
+        margin: 10px 20px;
+    }
+
+    footer{
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 700px){
+    .home .descriptionHeader h1{
+        font-size: 3em;
+        padding: 0;
+    }
+}
