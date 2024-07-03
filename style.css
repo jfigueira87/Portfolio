@@ -37,17 +37,26 @@ main{
     margin-left: 2rem;
 }
 
+.logoMenu img:hover{
+    transform: scale(1.2); 
+}
+
 .logoMenu{
+    display: flex;
     width: 100%;
+    align-items: center;
 }
 
 nav{
+    position: fixed; /* Fija la barra de navegación */
+    top: 0;
     display: flex;
     justify-content: space-between;
     background-color: black;
     width: 80%;
-    height: 70px;
-    border-radius: 10px;    
+    height: 80px;
+    border-radius: 10px;
+    z-index: 1000;   /* Asegura que la barra esté por encima de otros elementos */    
 }
 
 .menu{
@@ -163,6 +172,10 @@ nav{
 
 .logoProyect img{
     width: 450px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px -1px 37px 20px rgba(42,52,86,0.83);
+    -moz-box-shadow: 0px -1px 37px 20px rgba(42,52,86,0.83);
+    box-shadow: 0px -1px 37px 20px rgba(42,52,86,0.83);
 }
 
 .logoProyect img:hover{
@@ -334,7 +347,11 @@ footer{
     }
 
     .logoProyect img{
-        width: 300fggpx;
+        width: 300px;
+    }
+
+    .logoProyect img:hover{
+        width: 300px;
     }
 
     .descriptionProyect{
