@@ -346,8 +346,14 @@ footer{
         justify-content: center;
     }
 
+    .logoProyect img{
+        margin-bottom: 20px;
+        
+    }
+
     .logoProyect img:hover{
-        width: 300px;
+        width: 550px;
+        transition: 0.5s ease-out;
     }
 
     .descriptionProyect{
@@ -415,19 +421,7 @@ footer{
         border-radius: 0;
     }
 
-    .logoProyect img{
-        margin-bottom: 20px;
-    }
+
 }
 
-@media (max-width: 700px){
-    .home .descriptionHeader h1{
-        font-size: 3em;
-        padding: 0;
-    }
 
-    .logoProyect img{
-        width: 300px;
-        margin-bottom: 20px;
-    }
-}
