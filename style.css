@@ -327,42 +327,16 @@ footer{
 /* MEDIA QUERYS, DISEÑO RESPONSIVE */
 
 @media (max-width: 1350px){
+
+    /*responsive de la barra de menu*/
     nav{
         width: 100%;
         border-radius: 0;
         align-items: center;
     }
-    
-    .containerProyect{
-        flex-direction: column;
-    }
 
     .logoMenu{
         width: 100%;
-    }
-
-    .logoProyect{
-        margin:0;
-        justify-content: center;
-    }
-
-    .logoProyect img{
-        margin-bottom: 20px;
-        
-    }
-
-    .logoProyect img:hover{
-        width: 550px;
-        transition: 0.5s ease-out;
-    }
-
-    .descriptionProyect{
-        margin:0;
-        width: 100%;
-    }
-
-    .copyR p::before{
-        content: "Jonnatha F © 2024";
     }
 
     .menu{
@@ -412,19 +386,56 @@ footer{
         transition: 1s ease-in;
     }
 
-   .photo .descriptionHeader{
+    /*responsive del Header*/
+
+    .photo .descriptionHeader{
         margin: 10px 20px;
     }
+    
+    /*responsive de la sección proyectos*/
+
+    .containerProyect{
+        flex-direction: column;
+    }
+
+    .descriptionProyect{
+        margin:0;
+        width: 100%;
+    }
+
+    .logoProyect{
+        margin:0;
+        justify-content: center;
+    }
+
+    .logoProyect img{
+        margin-bottom: 20px;
+        
+    }
+
+    .logoProyect img:hover{
+        width: 550px;
+        transition: 0.5s ease-out;
+    }
+
+    /*responsive del footer*/
 
     footer{
         width: 100%;
         border-radius: 0;
     }
 
+    .copyR p::before{
+        content: "Jonnatha F © 2024";
+    }
+
 
 }
 
+/*AJUSTES RESPONSIVE PARA MOVILES PEQUEÑOS*/
+
 @media (max-width: 425px){
+    
     .home .descriptionHeader h1{
         font-size: 50px;
     }
